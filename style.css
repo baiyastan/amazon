@@ -262,7 +262,11 @@ left: 25px;
 .ff button:hover{
     background-color: burlywood;
 }
+
+
+
 .footer-foto{
+    margin: 0 auto;
     width: 1920px; 
 }
 .footer-foto img{
@@ -271,38 +275,8 @@ left: 25px;
     position: relative;
     margin: 0 auto;
 }
-.ali{
-    position:absolute;
-    width:1080px;
-    height: 105px;
-    background-color: white;
-    display: flex;
-    gap: 100px;
-    z-index: 1;
-    top: 148px;
-    left: 405px;
-    border-radius: 30px;
-    padding: 30px 0 0 50px ;
-}
-input{
-    border: none;
-    margin-top: 10px;
-}
-.ali button{
-    margin-top: 25px;
-    width: 200px;
-    height: 40px;
-    background-color: red;
-    border: none;
-    border-radius: 30px;
-    color: white;
-    font-size: 20px;
-}
-.ali button img{
-    width: 15px;
-    height: 15px;
-}
 .footer{
+    margin: 0 auto;
     width: 1920px;
     height: 447px;
     background-color: black;
@@ -313,7 +287,7 @@ input{
 }
 .footer-top{
     display: flex;
-    margin-bottom: 55px;
+    margin-bottom: 50px;
 }
 .footer-left img{
     margin: 50px 0 0 400px;
@@ -330,7 +304,7 @@ input{
 .footer-right input{
     width: 90px;
     background: none;
-    margin-bottom: 8px;
+    border: none;
 }
 .email{
     width: 240px;
