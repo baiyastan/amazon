@@ -377,7 +377,9 @@ display: flex;
 }
    
 
+
 .hotel{
+    width: 1000px;
     display: flex;
     background-color: white;
     border-radius: 8px;
@@ -443,5 +445,6 @@ display: flex;
 }
 
 .price button{
+  
     background-color: red;
 }
