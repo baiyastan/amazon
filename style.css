@@ -375,3 +375,77 @@ color: #ccc;
 margin: 0 auto;
 display: flex;
 }
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+}
+
+.hotel{
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: auto;
+}
+
+.hotel img {
+    width: 300px;
+    height: auto;
+}
+
+.hotel-info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.hotel-info h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.reiting {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.stars {
+    color: red  ;
+    margin-right: 10px;
+}
+
+.score {
+    font-size: 18px;
+    background-color: #003a8c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reviews {
+    color: #555;
+}
+
+.nabor {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+    color: #333;
+}
+.nabor img{
+    width: 15px;
+    height: 15px;
+}
+
+.price button{
+    background-color: red;
+}
