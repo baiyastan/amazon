@@ -375,13 +375,11 @@ color: #ccc;
 margin: 0 auto;
 display: flex;
 }
-    font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
-    margin: 0;
-    padding: 20px;
-}
+   
+
 
 .hotel{
+    width: 1000px;
     display: flex;
     background-color: white;
     border-radius: 8px;
@@ -447,5 +445,6 @@ display: flex;
 }
 
 .price button{
+  
     background-color: red;
 }
