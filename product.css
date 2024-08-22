@@ -1,0 +1,297 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 1920px;
+    height: 567px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 1920px;
+    height: 85px;
+    margin: 0 auto;
+    /* gap: 10px; */
+
+}
+
+.vv {
+    margin: 10px auto;
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-top ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+
+}
+
+.header-top ul li {
+    display: flex;
+    height: 100%;
+
+    align-items: center;
+    gap: 2px;
+}
+
+.header-top ul li a {
+    color: #000000;
+
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+
+.header-top ul li a:hover {
+    color: red;
+}
+
+.header-left {
+    display: flex;
+    gap: 20px;
+
+}
+
+.header-left button {
+    width: 162px;
+    height: 39px;
+    border-radius: 30px;
+    border: 1px solid #6A6A6A;
+    background-color: #FFFFFF;
+
+
+}
+
+.header-left button:hover {
+    background-color: burlywood;
+}
+
+.br {
+    margin-left: -60px;
+    display: flex;
+    gap: 20px;
+}
+
+.header-footer {
+    width: 1920px;
+    height: 482px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header-footer img {
+    width: 100%;
+    height: 482px;
+    object-fit: cover;
+    filter: brightness(80%);
+}
+
+.header-footer h1 {
+    position: absolute;
+    left: 630px;
+    top: 20px;
+    color: #FFFFFF;
+    line-height: 135px;
+    font-size: 100px;
+    font-weight: 800;
+    letter-spacing: 10px;
+    text-align: center;
+
+}
+
+.header-footer p {
+    color: #FFFFFF;
+
+    font-size: 28px;
+    font-weight: 400;
+    position: absolute;
+    top: 180px;
+    left: 650px;
+    letter-spacing: 3px;
+
+}
+
+.main {
+    width: 100%;
+    height: 580px;
+    border: 1px solid cornsilk;
+  position: absolute;
+   
+}
+.region{
+    margin-left: 800px;
+    position: relative;
+}
+
+
+.main h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-right {
+    display: flex;
+    margin-left: 500px;
+    gap: 20px;
+}
+
+
+
+.main-right img {
+    width: 60px;
+}
+
+.main-right h2 {
+    width: 63px;
+    height: 19px;
+    left: 561px;
+    top: 682px;
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.main-right2 h2 {
+    width: 63px;
+    height: 19px;
+    left: 561px;
+    top: 682px;
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.main-right2{
+    padding-left: 580px;
+
+}
+.main-right2 img {
+    width: 60px;
+    
+    
+}
+.main-right2 {
+    display: flex;
+    gap: 20px;
+}
+
+.region {
+    display: flex;
+}
+/* -------------------------- */
+
+.footer-foto{
+    margin: 0 auto;
+    width: 1920px; 
+}
+.footer-foto img{
+    width: 1920px;
+    height: 454px;
+    position: relative;
+    margin: 0 auto;
+}
+.footer{
+    margin: 0 auto;
+    width: 1920px;
+    height: 447px;
+    background-color: black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px; 
+    margin-top: 1000px;
+    top:-30px;
+}
+.footer-top{
+    display: flex;
+    margin-bottom: 50px;
+}
+.footer-left img{
+    margin: 50px 0 0 400px;
+}
+.footer-right{
+    display: flex;
+    gap: 30px;
+    height: 40px;
+    margin: 50px 0 0 550px;
+}
+.footer-right p{
+    color: white;
+}
+.footer-right input{
+    width: 90px;
+    background: none;
+    border: none;
+}
+.email{
+    width: 240px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    border: 1px solid white;
+    margin: 10px;
+    border-radius: 30px;
+}
+.email img{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+.texts{
+    margin: 45px auto ;
+}
+.texts ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.texts ul li{
+    color: #ccc;
+    list-style: none;
+    font-size: 22px;
+}
+.sotsety{
+    width: 407px;
+    height: 32px;
+    margin: 40px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.sotsety p {
+    width: 345px;
+    height: 14px;
+color: #ccc;
+margin: 0 auto;
+display: flex;
+}
+   
+
+

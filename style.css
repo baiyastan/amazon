@@ -282,8 +282,9 @@ left: 25px;
     background-color: black;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px; 
-    position: relative;
-    top:-30px;
+    margin-top: 300px;
+    
+   
 }
 .footer-top{
     display: flex;
@@ -350,7 +351,7 @@ margin: 0 auto;
 display: flex;
 }
    
-
+/* ------------ */
 
 .hotel{
     width: 1000px;
